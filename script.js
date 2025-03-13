@@ -1,6 +1,7 @@
 // Button Functionality
 document.getElementById("homeBtn").addEventListener("click", () => {
-  alert("Home button clicked!");
+  
+  window.location.href = "./hello.html"
 });
 
 document.getElementById("aboutBtn").addEventListener("click", () => {
